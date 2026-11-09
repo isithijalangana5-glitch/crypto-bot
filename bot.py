@@ -4,7 +4,7 @@ import datetime
 from collections import defaultdict
 import os
 
-TOKEN = os.environ.get("9029069827:AAHkLnnqNp890c6r_gn9a3wifffaw_b3OHw")
+TOKEN = os.environ.get("TOKEN")
 bot = telebot.TeleBot(TOKEN)
 
 PREMIUM_USERS = [8481784949]
